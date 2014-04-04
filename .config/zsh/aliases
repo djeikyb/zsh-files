@@ -1,0 +1,28 @@
+# greps
+alias egrep='"grep" -Ei --color=auto'
+alias fgrep='"grep" -Fi --color=auto'
+alias grep='"grep" -i --color=auto'
+# case insensitive
+alias less='less -i'
+alias man='man -i'
+alias locate='locate -i'
+# misc system
+alias cal='"cal" -m3'
+alias df='"df" -h'
+alias du='"du" -bh'
+alias mutt='mutt -F ~/.config/mutt/gps.muttrc'
+alias gmutt='mutt -F ~/.config/mutt/jace.muttrc'
+alias ls='"ls" --color=auto -F'
+alias mute='$HOME/bin/vol -m'
+alias pdf='"llpp"'
+alias pgrep='pgrep -fl'
+alias pkill='pkill -f'
+alias rxvt='urxvt'
+alias tmux="tmux -2"
+alias top='htop'
+alias vi='nvi'
+alias which='alias | "which" --tty-only --read-alias --show-dot --show-tilde'
+alias xlock='xscreensaver-command -lock'
+# stupid app names
+alias muta='mid3v2'
+
