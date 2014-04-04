@@ -1,1 +1,1 @@
-[ $HOSTNAME = "jacebox" ] && . $HOME/.config/zsh/gps.zshenv
+[ $(hostname) = "jacebox" ] && . $HOME/.config/zsh/gps.zshenv
