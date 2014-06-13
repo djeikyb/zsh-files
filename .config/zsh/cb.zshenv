@@ -2,6 +2,9 @@
 export JAVA_HOME=$HOME/jdk/jdk
 export PATH=$JAVA_HOME/bin:$CATALINA_HOME/bin:$PATH
 
+## set path for tomcat, needed for deploy scripts
+export CATALINA_HOME=$HOME/tomcat/tomcat
+
 ## set path for ant
 export ANT_HOME=$HOME/ant/ant
 export PATH=$ANT_HOME/bin:$PATH
