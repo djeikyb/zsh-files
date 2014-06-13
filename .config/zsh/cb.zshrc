@@ -21,3 +21,8 @@ PS1="%* %n@%m]%~%# "
 # source aliases
 . $HOME/.config/zsh/aliases
 . $HOME/.config/zsh/colours
+
+# manually source env because arch linux fucks up $PATH
+# in /etc/profile, which is read *after* $HOME/.zshenv
+
+. $HOME/.config/zsh/cb.zshenv
