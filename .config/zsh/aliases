@@ -15,7 +15,7 @@ alias gmutt='mutt -F ~/.config/mutt/jace.muttrc'
 alias ls='"ls" --color=auto -F'
 alias mute='$HOME/bin/vol -m'
 alias pdf='"llpp"'
-alias pgrep='pgrep --full --list-name'
+alias pgrep='pgrep --full --list-name --list-full'
 alias pkill='pkill --full'
 alias rxvt='urxvt'
 alias tmux="tmux -2"
